@@ -1,0 +1,53 @@
+.page-header {
+    grid-area: 1 / 1 / 2 / 3;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 4%;
+}
+
+.user-header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.button-header {
+    display: flex;
+    gap: 12px;
+}
+
+.button {
+    text-transform: uppercase;
+    font-weight: 600;
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    width: 110px;
+    padding: 5px 0;
+    border-radius: 15px;
+    background-color: var(--scnd-color);
+    border: 2px solid var(--scnd-color);
+
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button .material-symbols-outlined  {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button:active {
+    border-color: #FFF;
+    color: #FFF;
+}

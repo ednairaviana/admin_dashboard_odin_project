@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
 
-    background: linear-gradient(var(--main-color) 0%, transparent 90%);
+    background: linear-gradient(var(--scnd-color) 0%, transparent 90%);
 }
 
 .hamburguer {

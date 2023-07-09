@@ -1,3 +1,12 @@
 .main-title {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
+
+.ft-sz-md {
+    font-size: 1.4rem;
+}
+
+.material-symbols-outlined {
+    font-size: 25px;
+    font-weight: 300;
+  }
