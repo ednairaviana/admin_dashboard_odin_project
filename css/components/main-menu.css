@@ -1,0 +1,35 @@
+.main-menu ul, .main-menu li {
+    list-style: none;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.main-menu ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1.2rem;
+}
+
+.main-menu ul li:hover {
+    color: gray;
+}
+
+.main-menu ul li:active {
+    color: #FFF;
+}
+
+/* ICONS */
+
+.material-symbols-outlined {
+  font-size: 25px;
+}

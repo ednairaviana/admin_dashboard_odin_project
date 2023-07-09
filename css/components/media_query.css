@@ -1,0 +1,26 @@
+@media (max-width: 990px) and (min-width: 870px) {
+    .main-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 870px) {
+    body {
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+    }
+
+    .main-header {
+        flex-direction: row;
+        padding: 0 50px;
+    }
+
+    .main-header .hamburguer {
+        display: flex;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+}
