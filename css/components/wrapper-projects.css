@@ -1,0 +1,41 @@
+.wrapper-projects {
+    height: 89%;
+    box-sizing: content-box;
+    display: grid;
+    overflow-y: scroll;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 20px;
+}
+
+.project {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.icon-projects {
+    align-self: end;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-projects .material-symbols-outlined {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.icon-projects .material-symbols-outlined:hover {
+    color: var(--scnd-color);
+}
+.icon-projects .material-symbols-outlined:active {
+    color: #FFF;
+}

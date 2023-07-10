@@ -9,4 +9,16 @@
 .material-symbols-outlined {
     font-size: 25px;
     font-weight: 300;
-  }
+}
+
+.subtitle {
+    margin-bottom: 1%;
+}
+
+.pjt-ttl {
+    font-size: 1.3rem;
+}
+
+.description {
+    font-size: 0.7rem;
+}

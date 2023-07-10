@@ -30,6 +30,7 @@
 
     .page-header {
         grid-area: 1 / 1 / 2 / 2 ;
+        padding: 0 4%;
     }
 }
 
@@ -44,5 +45,15 @@
 
     .button p {
         display: none;
+    }
+
+    .main-section, .main-aside {
+        display: none;
+    }
+
+    .no-responsivity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
