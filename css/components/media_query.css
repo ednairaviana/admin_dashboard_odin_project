@@ -4,6 +4,18 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .no-responsivity {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-section, .main-aside {
+        display: none;
+    }
+}
+
 @media (max-width: 870px) {
     body {
         height: auto;
@@ -45,15 +57,5 @@
 
     .button p {
         display: none;
-    }
-
-    .main-section, .main-aside {
-        display: none;
-    }
-
-    .no-responsivity {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
