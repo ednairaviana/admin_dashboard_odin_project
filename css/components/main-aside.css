@@ -4,7 +4,3 @@
     grid-template-rows: 1.5fr 2fr;
     gap: 2%;
 }
-
-.main-aside > * {
-    border: 1px solid #fff;
-}
