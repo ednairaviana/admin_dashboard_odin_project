@@ -4,8 +4,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    background: linear-gradient(var(--scnd-color) 0%, transparent 90%);
 }
 
 .hamburguer {

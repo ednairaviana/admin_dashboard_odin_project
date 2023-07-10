@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #151515;
+    background-color: var(--scnd-color);
     color: #F5F5F5;
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
@@ -31,7 +31,6 @@ body {
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: 100%;
-    gap: 1%;
 }
 
 .no-responsivity {
